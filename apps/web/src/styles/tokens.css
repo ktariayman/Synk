@@ -1,0 +1,22 @@
+:root {
+  --bg: #ffffff;
+  --fg: #0f172a;
+  --muted: #6b7280;
+  --primary: #3b82f6;
+  --primary-fg: #ffffff;
+  --surface: #f8fafc;
+  --border: #e5e7eb;
+  --ring: #93c5fd;
+  --radius: 12px;
+}
+
+:root[data-theme='dark'] {
+  --bg: #0b1220;
+  --fg: #e5e7eb;
+  --muted: #9ca3af;
+  --primary: #60a5fa;
+  --primary-fg: #0b1220;
+  --surface: #0f172a;
+  --border: #1f2937;
+  --ring: #60a5fa;
+}
